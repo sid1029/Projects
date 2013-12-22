@@ -1,4 +1,4 @@
 Projects
 ========
 
-Some tiny projects.
+A few projects.
