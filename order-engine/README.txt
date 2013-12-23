@@ -7,9 +7,10 @@ This makefile project that has two targets.
 
 2. tests : Use "make tests" to build the test-engine executable. Run it using ./test-engine
 
-To test the order-engine, pipe in the sample inputs to it by the following command :
+To run the order-engine, pipe in the sample inputs to it using the following command :
 $> cat testinputs_valid.json | ./order-engine
 
+To run tests simply run ./test-engine. It will test both valid and invalid inputs. 
 Use "make clean" to delete all object files and corresponding executables.
 
 I have used the JSON cpp library from http://jsoncpp.sourceforge.net/
