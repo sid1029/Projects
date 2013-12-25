@@ -10,10 +10,10 @@ OrderStateMachine::OrderStateMachine()
 	stateTable =
 	{
 		/*From State	To State		Transition Function					*/
-		{{NEW,			COOKING},		&OrderStateMachine::NewToCooking},
-		{{NEW,			CANCELED},		&OrderStateMachine::NewToCanceled},
-		{{COOKING,		DELIVERING},	&OrderStateMachine::CookingToDelivering},
-		{{COOKING,		CANCELED},		&OrderStateMachine::CookingToCanceled},
+		{{NEW,		COOKING},		&OrderStateMachine::NewToCooking},
+		{{NEW,		CANCELED},		&OrderStateMachine::NewToCanceled},
+		{{COOKING,	DELIVERING},		&OrderStateMachine::CookingToDelivering},
+		{{COOKING,	CANCELED},		&OrderStateMachine::CookingToCanceled},
 		{{DELIVERING,	DELIVERED},		&OrderStateMachine::DeliveringToDelivered},
 		{{DELIVERING,	CANCELED},		&OrderStateMachine::DeliveringToCanceled},
 		{{DELIVERED,	REFUNDED},		&OrderStateMachine::DeliveredToRefunded}
