@@ -6,13 +6,15 @@ The password should be at least six characters in length and should contain char
 2. English lowercase letters (a through z)
 3. Base 10 digits (0 through 9)
 
-Given a string of alphanumeric (lower case, upper case, or digit) characters, your task is to find the length of its shortest contiguous substring which satisfies the above password policy requirement stated.
+Given a string of alphanumeric (lower case, upper case, or digit) characters, your task is to find the length of its
+shortest contiguous substring which satisfies the above password policy requirement stated.
 
 Input:
 Each test case has a string of at most 200 alphanumeric characters.
 
 Output:
-Output one integer indicating the minimum length of a contiguous substring which satisfies the password policy. If there is no such substring, output 0.
+Output one integer indicating the minimum length of a contiguous substring which satisfies the password policy.
+If there is no such substring, output 0.
 
 Examples:
 
